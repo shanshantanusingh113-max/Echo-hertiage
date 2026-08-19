@@ -12,6 +12,8 @@
     "era": "Mughal Era",
     "tags": ["fort", "unesco", "mughal"],
     "summary": "A massive red-sandstone fort where the Mughal emperors ruled India for nearly 200 years.",
+    "summaryHi": "लाल किला एक विशाल लाल बलुआ पत्थर का किला है, जहाँ मुगल बादशाहों ने लगभग 200 साल राज किया।",
+    "image": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Red%20Fort%2C%20Delhi.jpg&width=900",
     "funFact": "Every year on Independence Day, the Prime Minister hoists the national flag from its ramparts.",
     "facts": [
       { "label": "Built", "value": "1648" },
@@ -43,6 +45,8 @@
     "era": "Delhi Sultanate",
     "tags": ["minaret", "unesco", "sultanate"],
     "summary": "The world's tallest brick minaret — a 73-metre tower of victory covered in beautiful carvings.",
+    "summaryHi": "क़ुतुब मीनार दुनिया की सबसे ऊँची ईंट की मीनार है — जीत का 73 मीटर ऊँचा टॉवर।",
+    "image": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Qutb%20Minar.jpg&width=900",
     "funFact": "It leans slightly — about 65 cm off vertical — and is made of over 379 steps inside.",
     "facts": [
       { "label": "Height", "value": "72.5 metres (5 storeys)" },
@@ -74,6 +78,8 @@
     "era": "Mughal Era",
     "tags": ["tomb", "unesco", "mughal", "garden"],
     "summary": "The first great garden-tomb of the Mughals — and the design inspiration for the Taj Mahal.",
+    "summaryHi": "हुमायूँ का मकबरा मुगलों का पहला बगीचे वाला मकबरा है — जिसकी डिज़ाइन से ताजमहल बना।",
+    "image": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Humayun%27s%20Tomb%2C%20Delhi.jpg&width=900",
     "funFact": "The Taj Mahal's design was inspired by this very tomb, built almost 80 years earlier.",
     "facts": [
       { "label": "Built", "value": "1570" },
@@ -105,6 +111,8 @@
     "era": "Mughal / Sur Dynasty",
     "tags": ["fort", "oldest"],
     "summary": "The oldest fort in Delhi — some believe it stands on the site of the legendary city of Indraprastha.",
+    "summaryHi": "पुराना किला दिल्ली का सबसे पुराना किला है — कहा जाता है यही महाभारत की इंद्रप्रस्थ नगरी थी।",
+    "image": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Purana%20Qila%2C%20Delhi.jpg&width=900",
     "funFact": "Historians think the ancient city of Indraprastha from the Mahabharata stood exactly here.",
     "facts": [
       { "label": "Built", "value": "16th century" },
@@ -136,6 +144,8 @@
     "era": "Delhi Sultanate",
     "tags": ["water tank", "madrasa", "ruins"],
     "summary": "A medieval water reservoir and a ruined Islamic college surrounded by pretty tombs.",
+    "summaryHi": "हौज़ ख़ास एक प्राचीन पानी की टंकी और मध्यकालीन इस्लामी कॉलेज है, जिसके चारों ओर मकबरे हैं।",
+    "image": "",
     "funFact": "It was originally a water tank built to supply water to the whole of Siri, the Sultan's new city.",
     "facts": [
       { "label": "Water tank built", "value": "1280, by Alauddin Khilji" },
@@ -166,6 +176,8 @@
     "era": "Late Mughal Era",
     "tags": ["tomb", "garden", "mughal"],
     "summary": "The last garden tomb of the Mughal era, often called the 'last flicker of Mughal architecture'.",
+    "summaryHi": "सफ़दरजंग का मकबरा मुगल काल का आख़िरी बगीचे वाला मकबरा है।",
+    "image": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Safdarjung%20Tomb%2C%20Delhi.jpg&width=900",
     "funFact": "It was built by the son of Safdarjung, a powerful minister — and is the last big Mughal garden tomb ever built.",
     "facts": [
       { "label": "Built", "value": "1754" },
@@ -196,6 +208,8 @@
     "era": "18th Century",
     "tags": ["astronomy", "instruments"],
     "summary": "A giant outdoor observatory of stone instruments used to study the stars, sun and time.",
+    "summaryHi": "जंतर मंतर पत्थर की विशाल वेधशाला है, जहाँ बिना टेलिस्कोप के तारों और समय का अध्ययन होता था।",
+    "image": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jantar%20Mantar%2C%20New%20Delhi.jpg&width=900",
     "funFact": "These huge stone instruments can still tell the time with surprising accuracy even today.",
     "facts": [
       { "label": "Built", "value": "1724" },
@@ -227,6 +241,8 @@
     "era": "Delhi Sultanate",
     "tags": ["tombs", "park", "walk"],
     "summary": "A peaceful city park full of 15th-century tombs, mosques and bridges hidden among trees.",
+    "summaryHi": "लोधी गार्डन एक शांत पार्क है जिसमें 15वीं सदी के मकबरे और मस्जिदें पेड़ों के बीच छिपी हैं।",
+    "image": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bara%20Gumbad%2C%20Lodhi%20Gardens.jpg&width=900",
     "funFact": "It is both a park and an open-air museum — you can picnic beside a 600-year-old tomb.",
     "facts": [
       { "label": "Era", "value": "15th–16th century tombs" },
@@ -257,6 +273,8 @@
     "era": "Delhi Sultanate",
     "tags": ["fort", "ruins", "sultanate"],
     "summary": "A giant ruined fortress with towering slanted walls — often called a city of ghosts.",
+    "summaryHi": "तुग़लक़ाबाद किला एक विशाल खंडहर किला है, जिसकी झुकी हुई दीवारें हाथियों से बचाने के लिए बनी थीं।",
+    "image": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tughlaqabad%20Fort.jpg&width=900",
     "funFact": "Legend says a saint cursed it with the words 'May it remain empty' — and it was soon abandoned.",
     "facts": [
       { "label": "Built", "value": "1321" },
@@ -288,6 +306,8 @@
     "era": "1000 Years of History",
     "tags": ["park", "ruins", "multiple eras"],
     "summary": "An open park with over 100 monuments spanning a thousand years of Delhi's history.",
+    "summaryHi": "मेहरौली पुरातत्व पार्क में हजार सालों के इतिहास के 100 से ज़्यादा स्मारक हैं।",
+    "image": "",
     "funFact": "One park holds more than 100 monuments from ten centuries — from the 10th to the 20th century.",
     "facts": [
       { "label": "Monuments", "value": "Over 100" },
@@ -319,6 +339,8 @@
     "era": "Mughal Era",
     "tags": ["mosque", "mughal", "largest"],
     "summary": "The largest mosque in India — a grand marble-and-sandstone courtyard that holds 25,000 people.",
+    "summaryHi": "जामा मस्जिद भारत की सबसे बड़ी मस्जिद है, जिसमें 25,000 लोग नमाज़ पढ़ सकते हैं।",
+    "image": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jama%20Masjid%2C%20Delhi.jpg&width=900",
     "funFact": "You can climb one of its minarets for one of the best views of Old Delhi.",
     "facts": [
       { "label": "Built", "value": "1656" },
@@ -350,6 +372,8 @@
     "era": "Delhi Sultanate",
     "tags": ["fort", "pillar", "baoli"],
     "summary": "A 14th-century citadel holding an ancient Ashokan pillar and a mysterious old well.",
+    "summaryHi": "फ़िरोज़ शाह कोटला एक 14वीं सदी का किला है, जिसमें 2300 साल पुराना अशोक स्तंभ है।",
+    "image": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Feroz%20Shah%20Kotla.jpg&width=900",
     "funFact": "It holds a 2300-year-old Ashokan pillar that Emperor Firoz Shah carefully transported here.",
     "facts": [
       { "label": "Built", "value": "1354" },
@@ -381,6 +405,8 @@
     "era": "Legendary / Medieval",
     "tags": ["baoli", "stepwell", "hidden"],
     "summary": "A secret 108-step stepwell hidden in the middle of Delhi — a favourite filming location.",
+    "summaryHi": "अग्रसेन की बावली 108 सीढ़ियों वाली एक छिपी हुई प्राचीन बावली है।",
+    "image": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Agrasen%20ki%20Baoli.jpg&width=900",
     "funFact": "It has 108 steps down to three levels of arched niches — and is a favourite spot for movie shoots.",
     "facts": [
       { "label": "Built", "value": "Legend says by King Agrasen, 14th century" },

@@ -1,86 +1,95 @@
 /**
- * ttsService.js — Text-To-Speech wrapper using the browser's built-in
- * SpeechSynthesis API. Zero dependencies, zero keys, works offline.
- * Prefers an Indian-English voice when available.
+ * ttsService.js — Text-To-Speech wrapper over the browser SpeechSynthesis API.
+ * Supports language selection (en/hi) and progress callbacks for a player UI.
  */
 
-let cachedVoice = null
+let cachedVoices = []
 
-function findVoice() {
-  if (cachedVoice) return cachedVoice
-  const voices = window.speechSynthesis?.getVoices() || []
-  const preferred = [
-    'Google हिन्दी',
-    'Microsoft Heera',
-    'Google UK English Female',
-    'Google US English',
-    'en-IN',
-    'en-GB',
-    'en-US',
-  ]
-  cachedVoice =
-    voices.find((v) => preferred.includes(v.name)) ||
-    voices.find((v) => /en[-_]?(IN|GB)/i.test(v.lang)) ||
-    voices.find((v) => /en/i.test(v.lang)) ||
-    null
-  return cachedVoice
+function loadVoices() {
+  if (typeof window === 'undefined' || !window.speechSynthesis) return []
+  cachedVoices = window.speechSynthesis.getVoices() || []
+  return cachedVoices
 }
 
 if (typeof window !== 'undefined' && window.speechSynthesis) {
-  window.speechSynthesis.onvoiceschanged = () => {
-    cachedVoice = null
-    findVoice()
-  }
+  loadVoices()
+  window.speechSynthesis.onvoiceschanged = loadVoices
+}
+
+export function getVoices() {
+  return loadVoices()
 }
 
 export function isSpeechSupported() {
   return typeof window !== 'undefined' && 'speechSynthesis' in window
 }
 
+function pickVoice(lang) {
+  const voices = loadVoices()
+  const want = lang === 'hi' ? 'hi' : 'en'
+  if (want === 'hi') {
+    return (
+      voices.find((v) => /hi[-_]?(IN)/i.test(v.lang)) ||
+      voices.find((v) => /hi/i.test(v.lang)) ||
+      null
+    )
+  }
+  return (
+    voices.find((v) => /en[-_]?(IN|GB)/i.test(v.lang)) ||
+    voices.find((v) => /Google UK English Female/i.test(v.name)) ||
+    voices.find((v) => /en/i.test(v.lang)) ||
+    null
+  )
+}
+
 /**
- * Speak a string aloud. Returns an object with stop() and a done Promise.
+ * Speak a string. Returns a controller: { stop, done, isSpeaking }.
  * @param {string} text
- * @param {{rate?: number, pitch?: number, voice?: SpeechSynthesisVoice}} [opts]
+ * @param {{lang?: 'en'|'hi', rate?: number, pitch?: number, onProgress?: (charsDone:number, total:number)=>void}} [opts]
  */
 export function speak(text, opts = {}) {
-  if (!isSpeechSupported()) {
-    return { stop: () => {}, done: Promise.resolve() }
-  }
+  const noop = { stop: () => {}, done: Promise.resolve(), isSpeaking: () => false }
+  if (!isSpeechSupported() || !text) return noop
 
   const synth = window.speechSynthesis
   synth.cancel()
 
   const utterance = new SpeechSynthesisUtterance(text)
+  const lang = opts.lang === 'hi' ? 'hi-IN' : 'en-IN'
+  utterance.lang = lang
   utterance.rate = opts.rate ?? 0.95
   utterance.pitch = opts.pitch ?? 1
-  utterance.lang = 'en-IN'
 
-  const voice = opts.voice || findVoice()
+  const voice = pickVoice(opts.lang)
   if (voice) {
     utterance.voice = voice
     utterance.lang = voice.lang
   }
 
-  const done = new Promise((resolve) => {
-    utterance.onend = () => resolve()
-    utterance.onerror = () => resolve()
-  })
+  const total = text.length
+  let done = false
+  let resolveDone
+  const donePromise = new Promise((r) => { resolveDone = r })
+  const finish = () => { if (!done) { done = true; resolveDone() } }
+
+  utterance.onboundary = (e) => {
+    opts.onProgress?.(Math.min(e.charIndex ?? 0, total), total)
+  }
+  utterance.onend = () => { opts.onProgress?.(total, total); finish() }
+  utterance.onerror = () => { opts.onProgress?.(total, total); finish() }
 
   synth.speak(utterance)
 
   return {
     stop: () => {
       synth.cancel()
-      resolvePromise(done)
+      finish()
     },
-    done,
+    done: donePromise,
+    isSpeaking: () => !done,
   }
 }
 
 export function stopSpeaking() {
   if (isSpeechSupported()) window.speechSynthesis.cancel()
-}
-
-function resolvePromise(p) {
-  p.then(() => {})
 }

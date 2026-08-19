@@ -1,10 +1,10 @@
 import { useState } from 'react'
 
-export default function Discover({ sites, onOpen }) {
+export default function Discover({ sites, onOpen, t, lang }) {
   const [query, setQuery] = useState('')
-  const [tag, setTag] = useState('All')
+  const [tag, setTag] = useState('all')
 
-  const tags = ['All', ...new Set(sites.flatMap((s) => s.tags))]
+  const tags = ['all', ...new Set(sites.flatMap((s) => s.tags))]
 
   const filtered = sites.filter((s) => {
     const q = query.trim().toLowerCase()
@@ -13,53 +13,72 @@ export default function Discover({ sites, onOpen }) {
       s.name.toLowerCase().includes(q) ||
       s.area.toLowerCase().includes(q) ||
       s.era.toLowerCase().includes(q) ||
-      s.hindiName.includes(query.trim())
-    const matchTag = tag === 'All' || s.tags.includes(tag)
+      s.hindiName.includes(query.trim()) ||
+      (lang === 'hi' && (s.summaryHi || '').includes(query.trim()))
+    const matchTag = tag === 'all' || s.tags.includes(tag)
     return matchQuery && matchTag
   })
 
   return (
     <section className="discover">
-      <div className="discover-head">
-        <h2>Discover Delhi's Heritage</h2>
-        <p className="muted">
-          Tap a monument to hear its story in simple words. {sites.length} UNESCO and ASI sites curated for you.
-        </p>
-        <div className="search-row">
-          <input
-            className="search-input"
-            type="search"
-            placeholder="Search monuments, areas, eras…"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-          />
+      <div className="hero glass">
+        <div className="hero-text">
+          <span className="hero-kicker">🎧 {t('tagline')}</span>
+          <h1>{t('discoverTitle')}</h1>
+          <p>{t('discoverSubtitle')}</p>
+          <div className="search-row">
+            <input
+              className="search-input"
+              type="search"
+              placeholder={t('searchPlaceholder')}
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+            />
+          </div>
           <div className="tag-row">
-            {tags.map((t) => (
-              <button key={t} className={`chip ${tag === t ? 'chip-active' : ''}`} onClick={() => setTag(t)}>
-                {t}
+            {tags.map((tg) => (
+              <button
+                key={tg}
+                className={`chip ${tag === tg ? 'chip-active' : ''}`}
+                onClick={() => setTag(tg)}
+              >
+                {tg === 'all' ? t('allTag') : tg}
               </button>
             ))}
           </div>
+        </div>
+        <div className="hero-stats">
+          <div className="stat"><b>{sites.length}</b><span>Monuments</span></div>
+          <div className="stat"><b>{sites.filter((s) => s.unesco).length}</b><span>UNESCO</span></div>
+          <div className="stat"><b>1000+</b><span>Years of history</span></div>
         </div>
       </div>
 
       <div className="grid">
         {filtered.map((site) => (
           <article key={site.id} className="site-card" onClick={() => onOpen(site)}>
-            <div className="site-banner">
+            <div className="site-photo">
+              {site.image ? (
+                <img src={site.image} alt={site.name} loading="lazy"
+                  onError={(e) => { e.currentTarget.style.display = 'none' }} />
+              ) : null}
               <span className="site-initial">{site.name.charAt(0)}</span>
               {site.unesco && <span className="badge">UNESCO</span>}
+              <div className="site-photo-shade" />
+              <div className="site-photo-title">
+                <h3>{site.name}</h3>
+                <span>{lang === 'hi' ? (site.summaryHi || site.summary) : site.summary}</span>
+              </div>
             </div>
             <div className="site-body">
-              <h3>{site.name}</h3>
               <div className="site-sub">
                 <span>{site.era}</span> · <span>{site.builtYear}</span> · <span>{site.area}</span>
               </div>
-              <p className="site-summary">{site.summary}</p>
               <div className="site-tags">
-                {site.tags.slice(0, 3).map((t) => (
-                  <span key={t} className="mini-chip">{t}</span>
+                {site.tags.slice(0, 3).map((tg) => (
+                  <span key={tg} className="mini-chip">{tg}</span>
                 ))}
+                <span className="mini-chip audio">🔊 audio guide</span>
               </div>
             </div>
           </article>
