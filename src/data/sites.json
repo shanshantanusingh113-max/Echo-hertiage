@@ -1,0 +1,402 @@
+[
+  {
+    "id": "red-fort",
+    "name": "Red Fort",
+    "hindiName": "लाल किला",
+    "area": "Old Delhi",
+    "lat": 28.6562,
+    "lng": 77.241,
+    "unesco": true,
+    "builtYear": "1648",
+    "builder": "Shah Jahan",
+    "era": "Mughal Era",
+    "tags": ["fort", "unesco", "mughal"],
+    "summary": "A massive red-sandstone fort where the Mughal emperors ruled India for nearly 200 years.",
+    "funFact": "Every year on Independence Day, the Prime Minister hoists the national flag from its ramparts.",
+    "facts": [
+      { "label": "Built", "value": "1648" },
+      { "label": "Built by", "value": "Emperor Shah Jahan" },
+      { "label": "Material", "value": "Red sandstone" },
+      { "label": "Size", "value": "255 acres (about 144 football fields)" },
+      { "label": "UNESCO site", "value": "Since 2007" }
+    ],
+    "story": "Shah Jahan moved his capital from Agra to Delhi and ordered a grand new fort. It took nearly 10 years and thousands of workers. The fort's name comes from its huge walls of red sandstone. Inside were royal palaces, private halls, gardens and the famous Peacock Throne. For almost two centuries it was the heart of Mughal power. It is still one of the most visited monuments in India.",
+    "visit": {
+      "open": "Open all days except Monday",
+      "time": "9:00 AM – 5:00 PM",
+      "fee": "₹35 (Indians), ₹550 (foreigners)",
+      "bestTime": "Morning or evening, avoid summer afternoons",
+      "nearestMetro": "Lal Qila Metro Station"
+    },
+    "tagsInfo": "Mughal emperor Shah Jahan built it in 1648. It served as the royal residence for about 200 years."
+  },
+  {
+    "id": "qutub-minar",
+    "name": "Qutub Minar",
+    "hindiName": "क़ुतुब मीनार",
+    "area": "South Delhi, Mehrauli",
+    "lat": 28.5245,
+    "lng": 77.1855,
+    "unesco": true,
+    "builtYear": "1193",
+    "builder": "Qutb-ud-din Aibak (completed by Iltutmish)",
+    "era": "Delhi Sultanate",
+    "tags": ["minaret", "unesco", "sultanate"],
+    "summary": "The world's tallest brick minaret — a 73-metre tower of victory covered in beautiful carvings.",
+    "funFact": "It leans slightly — about 65 cm off vertical — and is made of over 379 steps inside.",
+    "facts": [
+      { "label": "Height", "value": "72.5 metres (5 storeys)" },
+      { "label": "Started", "value": "1193" },
+      { "label": "Material", "value": "Red sandstone and marble" },
+      { "label": "UNESCO site", "value": "Since 1993" },
+      { "label": "Inside steps", "value": "379 steps to the top" }
+    ],
+    "story": "After winning power in Delhi, Qutb-ud-din Aibak started building this tower as a symbol of victory. Later rulers added more floors. The tower is covered in carvings of verses and flowers. Around it stands the famous Iron Pillar which has not rusted for over 1600 years. The whole area is a small city of ruined mosques and tombs from the Delhi Sultanate.",
+    "visit": {
+      "open": "Open all days",
+      "time": "Sunrise – Sunset",
+      "fee": "₹35 (Indians), ₹550 (foreigners)",
+      "bestTime": "November to March",
+      "nearestMetro": "Qutub Minar Metro Station"
+    },
+    "tagsInfo": "Built starting 1193 by the Delhi Sultanate. It is the tallest brick minaret in the world."
+  },
+  {
+    "id": "humayuns-tomb",
+    "name": "Humayun's Tomb",
+    "hindiName": "हुमायूँ का मकबरा",
+    "area": "Nizamuddin East",
+    "lat": 28.5933,
+    "lng": 77.2507,
+    "unesco": true,
+    "builtYear": "1570",
+    "builder": "Bega Begum (Humayun's widow)",
+    "era": "Mughal Era",
+    "tags": ["tomb", "unesco", "mughal", "garden"],
+    "summary": "The first great garden-tomb of the Mughals — and the design inspiration for the Taj Mahal.",
+    "funFact": "The Taj Mahal's design was inspired by this very tomb, built almost 80 years earlier.",
+    "facts": [
+      { "label": "Built", "value": "1570" },
+      { "label": "Built by", "value": "Bega Begum, wife of Emperor Humayun" },
+      { "label": "Style", "value": "First Mughal garden tomb in India" },
+      { "label": "UNESCO site", "value": "Since 1993" },
+      { "label": "Design inspiration", "value": "The Taj Mahal" }
+    ],
+    "story": "When Emperor Humayun died, his widow Bega Begum wanted a tomb worthy of him. She hired a Persian architect who combined Indian and Persian styles. The building sits in the middle of a beautiful charbagh (four-part garden) with water channels. Its double dome is very special — one dome inside, one outside. This design became the model for later Mughal tombs, including the famous Taj Mahal.",
+    "visit": {
+      "open": "Open all days",
+      "time": "Sunrise – Sunset",
+      "fee": "₹40 (Indians), ₹550 (foreigners)",
+      "bestTime": "Winter mornings",
+      "nearestMetro": "JLN Stadium Metro Station"
+    },
+    "tagsInfo": "Built in 1570, it is the first garden-tomb on the Indian subcontinent and inspired the Taj Mahal."
+  },
+  {
+    "id": "purana-qila",
+    "name": "Purana Qila",
+    "hindiName": "पुराना किला",
+    "area": "Near Delhi Zoo",
+    "lat": 28.6093,
+    "lng": 77.2439,
+    "unesco": false,
+    "builtYear": "1500s",
+    "builder": "Sher Shah Suri & Humayun",
+    "era": "Mughal / Sur Dynasty",
+    "tags": ["fort", "oldest"],
+    "summary": "The oldest fort in Delhi — some believe it stands on the site of the legendary city of Indraprastha.",
+    "funFact": "Historians think the ancient city of Indraprastha from the Mahabharata stood exactly here.",
+    "facts": [
+      { "label": "Built", "value": "16th century" },
+      { "label": "Built by", "value": "Humayun and Sher Shah Suri" },
+      { "label": "Claim to fame", "value": "Oldest fort in Delhi" },
+      { "label": "Legend", "value": "Site of Mahabharata's Indraprastha" },
+      { "label": "Entertainment", "value": "Light-and-sound show in the evening" }
+    ],
+    "story": "The name Purana Qila means Old Fort. It was built by Sher Shah Suri and then Emperor Humayun. Archaeologists digging here found objects from 1000 BC, proof that people lived here thousands of years ago. The fort has grand gates with marble decoration. In the evening there is a light and sound show that tells the story of Delhi.",
+    "visit": {
+      "open": "Open all days",
+      "time": "7:00 AM – 5:00 PM",
+      "fee": "₹20 (Indians), ₹200 (foreigners)",
+      "bestTime": "Evening for the sound-and-light show",
+      "nearestMetro": "Supreme Court / Pragati Maidan"
+    },
+    "tagsInfo": "The oldest fort in Delhi, possibly built over the legendary city of Indraprastha."
+  },
+  {
+    "id": "hauz-khas",
+    "name": "Hauz Khas Complex",
+    "hindiName": "हौज़ ख़ास कॉम्प्लेक्स",
+    "area": "South Delhi",
+    "lat": 28.5494,
+    "lng": 77.1921,
+    "unesco": false,
+    "builtYear": "1280",
+    "builder": "Alauddin Khilji & Firoz Shah Tughlaq",
+    "era": "Delhi Sultanate",
+    "tags": ["water tank", "madrasa", "ruins"],
+    "summary": "A medieval water reservoir and a ruined Islamic college surrounded by pretty tombs.",
+    "funFact": "It was originally a water tank built to supply water to the whole of Siri, the Sultan's new city.",
+    "facts": [
+      { "label": "Water tank built", "value": "1280, by Alauddin Khilji" },
+      { "label": "Madrasa built", "value": "1352, by Firoz Shah Tughlaq" },
+      { "label": "Special feature", "value": "Ancient Islamic university ruins" },
+      { "label": "Vibe", "value": "Ruins + lake + trendy cafes around it" }
+    ],
+    "story": "Hundreds of years ago, Delhi suffered from a water shortage. Sultan Alauddin Khilji built a huge reservoir here to store rain water. Later, Sultan Firoz Shah Tughlaq added a madrasa, or Islamic college, beside the water. Students from far away came to study here. Today you can walk among the domed tombs and ruined walls while the lake glitters beside you.",
+    "visit": {
+      "open": "Open all days",
+      "time": "10:00 AM – 7:00 PM",
+      "fee": "Free entry",
+      "bestTime": "Late afternoon",
+      "nearestMetro": "Green Park / Hauz Khas"
+    },
+    "tagsInfo": "A 13th-century water tank and a 14th-century Islamic college set among pretty ruins."
+  },
+  {
+    "id": "safdarjung-tomb",
+    "name": "Safdarjung's Tomb",
+    "hindiName": "सफ़दरजंग का मकबरा",
+    "area": "Central Delhi",
+    "lat": 28.589,
+    "lng": 77.2106,
+    "unesco": false,
+    "builtYear": "1754",
+    "builder": "Shuja-ud-Daula (Safdarjung's son)",
+    "era": "Late Mughal Era",
+    "tags": ["tomb", "garden", "mughal"],
+    "summary": "The last garden tomb of the Mughal era, often called the 'last flicker of Mughal architecture'.",
+    "funFact": "It was built by the son of Safdarjung, a powerful minister — and is the last big Mughal garden tomb ever built.",
+    "facts": [
+      { "label": "Built", "value": "1754" },
+      { "label": "For whom", "value": "Safdarjung, a Mughal minister" },
+      { "label": "Style", "value": "Last Mughal garden tomb" },
+      { "label": "Architect", "value": "Nawab Shuja-ud-Daula's architect" }
+    ],
+    "story": "Safdarjung was the prime minister of the Mughal empire. After he died, his son built this tomb for him. By this time the Mughal empire was growing weak, so the tomb is smaller and simpler than older ones. People call it the last great Mughal garden tomb. From its high walls you can see a lovely view of the park around it.",
+    "visit": {
+      "open": "Open all days",
+      "time": "Sunrise – Sunset",
+      "fee": "₹25 (Indians), ₹300 (foreigners)",
+      "bestTime": "Morning",
+      "nearestMetro": "Jor Bagh Metro Station"
+    },
+    "tagsInfo": "Built in 1754, the last great garden tomb of the Mughal period."
+  },
+  {
+    "id": "jantar-mantar",
+    "name": "Jantar Mantar",
+    "hindiName": "जंतर मंतर",
+    "area": "Connaught Place",
+    "lat": 28.627,
+    "lng": 77.2166,
+    "unesco": false,
+    "builtYear": "1724",
+    "builder": "Maharaja Jai Singh II",
+    "era": "18th Century",
+    "tags": ["astronomy", "instruments"],
+    "summary": "A giant outdoor observatory of stone instruments used to study the stars, sun and time.",
+    "funFact": "These huge stone instruments can still tell the time with surprising accuracy even today.",
+    "facts": [
+      { "label": "Built", "value": "1724" },
+      { "label": "Built by", "value": "Maharaja Jai Singh II of Jaipur" },
+      { "label": "Purpose", "value": "Ancient observatory" },
+      { "label": "Biggest instrument", "value": "The Samrat Yantra (sun dial)" },
+      { "label": "Location", "value": "Right next to Connaught Place" }
+    ],
+    "story": "Maharaja Jai Singh II loved astronomy. He built five observatories across India; this one is in Delhi. Without telescopes or computers, his engineers carved huge stone instruments to measure time, track stars and predict eclipses. The biggest one, the Samrat Yantra, is a giant sundial 27 metres tall. It stands in the middle of bustling Connaught Place, a calm island of science.",
+    "visit": {
+      "open": "Open all days",
+      "time": "Sunrise – Sunset",
+      "fee": "₹25 (Indians), ₹300 (foreigners)",
+      "bestTime": "Morning",
+      "nearestMetro": "Patel Chowk / Rajiv Chowk"
+    },
+    "tagsInfo": "A 1724 stone observatory built by Jai Singh II to study the stars without any telescopes."
+  },
+  {
+    "id": "lodhi-gardens",
+    "name": "Lodhi Gardens",
+    "hindiName": "लोधी गार्डन",
+    "area": "Central Delhi",
+    "lat": 28.5931,
+    "lng": 77.2195,
+    "unesco": false,
+    "builtYear": "1400s",
+    "builder": "Sayyid & Lodi Dynasties",
+    "era": "Delhi Sultanate",
+    "tags": ["tombs", "park", "walk"],
+    "summary": "A peaceful city park full of 15th-century tombs, mosques and bridges hidden among trees.",
+    "funFact": "It is both a park and an open-air museum — you can picnic beside a 600-year-old tomb.",
+    "facts": [
+      { "label": "Era", "value": "15th–16th century tombs" },
+      { "label": "Famous spots", "value": "Bara Gumbad, Shish Gumbad, Tomb of Sikandar Lodi" },
+      { "label": "Entry", "value": "Free" },
+      { "label": "Best for", "value": "Morning walks and photography" }
+    ],
+    "story": "Inside this green park lie the tombs of rulers from the Sayyid and Lodi dynasties. The Bara Gumbad is a big domed hall, and the Shish Gumbad glitters with blue tiles. The tomb of Sikandar Lodi sits on a high platform with a terrace. Morning walkers jog past monuments older than many countries. It is the perfect mix of history and nature.",
+    "visit": {
+      "open": "Open all days",
+      "time": "Sunrise – 8:00 PM",
+      "fee": "Free entry",
+      "bestTime": "Sunrise for morning walks",
+      "nearestMetro": "Jor Bagh / Khan Market"
+    },
+    "tagsInfo": "A green park hiding 15th-century tombs of the Sayyid and Lodi rulers."
+  },
+  {
+    "id": "tughlaqabad-fort",
+    "name": "Tughlaqabad Fort",
+    "hindiName": "तुग़लक़ाबाद क़िला",
+    "area": "South Delhi",
+    "lat": 28.5156,
+    "lng": 77.2599,
+    "unesco": false,
+    "builtYear": "1321",
+    "builder": "Ghiyas-ud-din Tughlaq",
+    "era": "Delhi Sultanate",
+    "tags": ["fort", "ruins", "sultanate"],
+    "summary": "A giant ruined fortress with towering slanted walls — often called a city of ghosts.",
+    "funFact": "Legend says a saint cursed it with the words 'May it remain empty' — and it was soon abandoned.",
+    "facts": [
+      { "label": "Built", "value": "1321" },
+      { "label": "Built by", "value": "Ghiyas-ud-din Tughlaq" },
+      { "label": "Size", "value": "One of the biggest forts in India" },
+      { "label": "Wall thickness", "value": "Up to 15 metres" },
+      { "label": "Atmosphere", "value": "Massive empty ruins" }
+    ],
+    "story": "Ghiyas-ud-din Tughlaq built this enormous fort to defend Delhi from attackers. The walls are slanted like giant ramps to stop elephants from breaking through. But legend says a holy saint cursed it to remain empty, and within a few years it was abandoned. Today its massive walls and empty halls stand silently, a favourite spot for explorers and photographers.",
+    "visit": {
+      "open": "Open all days",
+      "time": "Sunrise – Sunset",
+      "fee": "₹20 (Indians), ₹250 (foreigners)",
+      "bestTime": "Late afternoon light",
+      "nearestMetro": "Tughlaqabad Metro Station"
+    },
+    "tagsInfo": "A massive 1321 fortress of the Tughlaq dynasty, now a haunting ruined citadel."
+  },
+  {
+    "id": "mehrauli-park",
+    "name": "Mehrauli Archaeological Park",
+    "hindiName": "मेहरौली पुरातत्व पार्क",
+    "area": "South Delhi, Mehrauli",
+    "lat": 28.5193,
+    "lng": 77.1809,
+    "unesco": false,
+    "builtYear": "900s",
+    "builder": "Multiple dynasties over 1000 years",
+    "era": "1000 Years of History",
+    "tags": ["park", "ruins", "multiple eras"],
+    "summary": "An open park with over 100 monuments spanning a thousand years of Delhi's history.",
+    "funFact": "One park holds more than 100 monuments from ten centuries — from the 10th to the 20th century.",
+    "facts": [
+      { "label": "Monuments", "value": "Over 100" },
+      { "label": "Time span", "value": "10th century onwards" },
+      { "label": "Highlights", "value": "Jamali Kamali Mosque, Balban's Tomb" },
+      { "label": "Entry", "value": "Free" },
+      { "label": "Nearby", "value": "Qutub Minar, 1 km away" }
+    ],
+    "story": "This park is like a time machine. Walk past ruins from ten different centuries — temples, tombs, mosques and wells. The Jamali Kamali mosque has beautiful painted ceilings, and Balban's tomb is one of the first true arches built in India. Most tourists visit only the Qutub Minar next door and miss this hidden treasure full of history.",
+    "visit": {
+      "open": "Open all days",
+      "time": "Sunrise – Sunset",
+      "fee": "Free entry",
+      "bestTime": "Winter mornings",
+      "nearestMetro": "Qutub Minar Metro Station"
+    },
+    "tagsInfo": "A park with 100+ monuments spanning a thousand years of Delhi history."
+  },
+  {
+    "id": "jama-masjid",
+    "name": "Jama Masjid",
+    "hindiName": "जामा मस्जिद",
+    "area": "Old Delhi",
+    "lat": 28.6507,
+    "lng": 77.2334,
+    "unesco": false,
+    "builtYear": "1656",
+    "builder": "Shah Jahan",
+    "era": "Mughal Era",
+    "tags": ["mosque", "mughal", "largest"],
+    "summary": "The largest mosque in India — a grand marble-and-sandstone courtyard that holds 25,000 people.",
+    "funFact": "You can climb one of its minarets for one of the best views of Old Delhi.",
+    "facts": [
+      { "label": "Built", "value": "1656" },
+      { "label": "Built by", "value": "Emperor Shah Jahan" },
+      { "label": "Capacity", "value": "25,000 worshippers" },
+      { "label": "Claim", "value": "Largest mosque in India" },
+      { "label": "View", "value": "Best rooftop view of Old Delhi" }
+    ],
+    "story": "Shah Jahan, who built the Taj Mahal, built this mosque too. It took 5,000 workers and six years. The great courtyard can hold 25,000 people at prayer. The building has three grand gates and two tall minarets. From the top you can see all of Old Delhi spread out below — a maze of lanes and markets. It is still an active mosque today.",
+    "visit": {
+      "open": "Open all days, closed during prayer times",
+      "time": "7:00 AM – 12:00 PM, 1:30 PM – 6:30 PM",
+      "fee": "Free (₹300 for photography/minaret climb)",
+      "bestTime": "Mornings",
+      "nearestMetro": "Chawri Bazar / Jama Masjid"
+    },
+    "tagsInfo": "The largest mosque in India, built by Shah Jahan in 1656."
+  },
+  {
+    "id": "feroz-shah-kotla",
+    "name": "Feroz Shah Kotla",
+    "hindiName": "फ़िरोज़ शाह कोटला",
+    "area": "Central Delhi",
+    "lat": 28.6358,
+    "lng": 77.2436,
+    "unesco": false,
+    "builtYear": "1354",
+    "builder": "Firoz Shah Tughlaq",
+    "era": "Delhi Sultanate",
+    "tags": ["fort", "pillar", "baoli"],
+    "summary": "A 14th-century citadel holding an ancient Ashokan pillar and a mysterious old well.",
+    "funFact": "It holds a 2300-year-old Ashokan pillar that Emperor Firoz Shah carefully transported here.",
+    "facts": [
+      { "label": "Built", "value": "1354" },
+      { "label": "Built by", "value": "Firoz Shah Tughlaq" },
+      { "label": "Famous relic", "value": "Ashokan Pillar (2300 years old)" },
+      { "label": "Special", "value": "Ancient stepwell (baoli)" },
+      { "label": "Nearby", "value": "Old Delhi railway station" }
+    ],
+    "story": "Firoz Shah Tughlaq built this citadel in 1354. He loved history so much that he brought a 2,300-year-old pillar of Emperor Ashoka all the way from Haryana and set it up here. The old baoli, or stepwell, still survives. Today the fort is a quiet green ruin in the middle of the city, surrounded by the busy lanes of Old Delhi.",
+    "visit": {
+      "open": "Open all days",
+      "time": "Sunrise – Sunset",
+      "fee": "₹25 (Indians), ₹300 (foreigners)",
+      "bestTime": "Morning",
+      "nearestMetro": "Delhi Gate / New Delhi station"
+    },
+    "tagsInfo": "A 1354 citadel of Firoz Shah Tughlaq with a 2300-year-old Ashokan pillar."
+  },
+  {
+    "id": "agrasen-ki-baoli",
+    "name": "Agrasen ki Baoli",
+    "hindiName": "अग्रसेन की बावली",
+    "area": "Connaught Place",
+    "lat": 28.6232,
+    "lng": 77.2292,
+    "unesco": false,
+    "builtYear": "1300s",
+    "builder": "Legend: King Agrasen; rebuilt in 14th century",
+    "era": "Legendary / Medieval",
+    "tags": ["baoli", "stepwell", "hidden"],
+    "summary": "A secret 108-step stepwell hidden in the middle of Delhi — a favourite filming location.",
+    "funFact": "It has 108 steps down to three levels of arched niches — and is a favourite spot for movie shoots.",
+    "facts": [
+      { "label": "Built", "value": "Legend says by King Agrasen, 14th century" },
+      { "label": "Structure", "value": "108 steps, 3 levels" },
+      { "label": "Setting", "value": "Hidden between modern high-rises" },
+      { "label": "Famous for", "value": "Bollywood film shootings" },
+      { "label": "Entry", "value": "Free" }
+    ],
+    "story": "Tucked between tall modern buildings near Connaught Place, this stepwell feels like a secret. Legend says it was built by King Agrasen in the age of the Mahabharata, though the stone work is from the 14th century. You walk down 108 steps past arched alcoves. Many films have been shot here because it looks so mysterious. It is a hidden gem few tourists find.",
+    "visit": {
+      "open": "Open all days",
+      "time": "9:00 AM – 6:00 PM",
+      "fee": "Free entry",
+      "bestTime": "Mornings",
+      "nearestMetro": "Barakhamba Road / Janpath"
+    },
+    "tagsInfo": "A hidden 108-step stepwell near Connaught Place, popular with filmmakers."
+  }
+]
